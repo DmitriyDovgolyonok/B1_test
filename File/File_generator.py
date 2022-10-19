@@ -2,7 +2,7 @@ from Content.Content_generator import ContentGenerator
 from Utils.Console import progress
 import os
 """
-Класс для генерации файлов
+Class for generating 100 files
 """
 
 class FileGenerator:

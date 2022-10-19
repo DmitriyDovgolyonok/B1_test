@@ -1,6 +1,6 @@
 import datetime as dt
 """
- онстанты используемые внутри проекта
+Constants used within the project
 """
 END_DATE = dt.date.today()
 START_DATE = END_DATE - dt.timedelta(days = 365 * 5 + 1)

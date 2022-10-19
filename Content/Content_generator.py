@@ -4,7 +4,7 @@ import numpy as np
 
 from Utils.Consts import END_DATE, START_DATE, RU_CHARS, EN_CHARS
 """
-Класс для генерации контента внутри файлов
+Class for generating content inside files
 """
 class ContentGenerator:
     def __init__(self, number_of_rows: int):

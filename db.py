@@ -68,13 +68,13 @@ def task4():
         with closing(sqlite3.connect('sqlite_python.db')) as connection:
 
             cursor = connection.cursor()
-            # SQL запрос на нахождение суммы ряда int_number
+            # SQL query to find the sum of a int_number column
             cursor.execute("""
                                    select sum(int_number) from test 
                                    """)
             sum = cursor.fetchone()
 
-            # SQL запрос на нахождение медианты столбца float_number
+            # SQL query to find the median of a float_number column
             cursor.execute("""
                                 select float_number from test
                                 order by float_number
