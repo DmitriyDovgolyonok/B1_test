@@ -1,6 +1,8 @@
 import os
 
-
+"""
+Функция для реализации слияния и удаления подстроки из файлов
+"""
 def merge_and_delete(files_dir, string: str, final_dir = 'merge_result') -> int:
     if not os.path.isdir(final_dir):
         os.mkdir(final_dir)

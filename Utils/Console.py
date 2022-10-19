@@ -1,5 +1,7 @@
 def progress(count: int, total: int):
-
+    """
+    Графичесое отображение прогресс бара
+    """
     bar_len = 60
     filled_len = int(round(bar_len * count / int(total)))
 

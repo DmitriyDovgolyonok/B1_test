@@ -3,7 +3,9 @@ import random
 import numpy as np
 
 from Utils.Consts import END_DATE, START_DATE, RU_CHARS, EN_CHARS
-
+"""
+Класс для генерации контента внутри файлов
+"""
 class ContentGenerator:
     def __init__(self, number_of_rows: int):
         self.number_of_rows = number_of_rows

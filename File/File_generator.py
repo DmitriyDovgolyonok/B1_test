@@ -1,7 +1,9 @@
 from Content.Content_generator import ContentGenerator
 from Utils.Console import progress
 import os
-
+"""
+Класс для генерации файлов
+"""
 
 class FileGenerator:
     def __init__(self, number_of_rows: int, number_of_files: int):
